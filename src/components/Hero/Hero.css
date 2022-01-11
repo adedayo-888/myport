@@ -1,0 +1,53 @@
+.herosec {
+  height: 100vh;
+  background-image: url('../../images/portfolio-logo.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.herosec-wrapper {
+  height: '100%';
+  width: '100%';
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-intro {
+  font-size: 40px;
+  font-weight: 300;
+  background: #808080;
+  padding: 30px;
+  border-radius: 20px;
+  color: #eaf3ea;
+}
+.hero-title {
+  font-size: 1.1rem;
+  color: rgb(36, 3, 3);
+}
+.desc-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  width: 40%;
+  text-align: center;
+  background: #808080;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.btn {
+  background: #808080;
+  color: #fff;
+  font-size: 18px;
+  padding: 16px 32px;
+  max-width: 200px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: yellow;
+  color: black;
+  transition: all 0.2 ease-in-out;
+  transform: translateY(-4px);
+}
