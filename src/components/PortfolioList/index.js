@@ -1,7 +1,7 @@
 import './PortfolioList.css';
-import Portfolio from '../Portfolio/Portfolio';
+import Portfolio from '../Portfolio/';
 
-const PortfolioList = () => {
+export default PortfolioList = () => {
   return (
     <div className='pl'>
       <div className='pl-texts'>
