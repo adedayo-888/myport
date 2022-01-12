@@ -1,14 +1,23 @@
 import './App.css';
-import Hero from './components/Hero';
-import About from './components/About';
+
+// import { useContext } from 'react';
+import About from './components/About/About';
+// import Contact from './components/Contact/Contact';
+import Hero from './components/Hero/Hero';
 import ProductList from './components/ProductList/ProductList';
-function App() {
+// // import Toggle from './components/Toggle/Toggle';
+// import { ThemeContext } from './context';
+
+const App = () => {
+  // const theme = useContext(ThemeContext);
+  // const darkMode = theme.state.darkMode;
   return (
-    <div className='App'>
+    <div>
       <Hero />
       <About />
       <ProductList />
     </div>
   );
-}
+};
+
 export default App;
