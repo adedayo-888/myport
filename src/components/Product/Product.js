@@ -1,6 +1,6 @@
-import './Portfolio.css';
+import './Product.css';
 
-const Portfolio = ({ img, link }) => {
+const Product = ({ img, link }) => {
   return (
     <div className='p'>
       <div className='p-browser'>
@@ -15,4 +15,4 @@ const Portfolio = ({ img, link }) => {
   );
 };
 
-export default Portfolio;
+export default Product;
